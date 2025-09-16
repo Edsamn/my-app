@@ -2,6 +2,7 @@ import Greeting from "./components/Greeting.tsx";
 import Counter from "./components/Counter.tsx";
 import CustomerList from "./components/CustomerList.tsx";
 import CustomerForm from "./components/CustomerForm.tsx";
+import CustomerApi from "./components/CustomerAPI.tsx";
 
 function AppTSX() {
   return (
@@ -14,6 +15,8 @@ function AppTSX() {
       <CustomerList />
       <h2>Cadastro de Clientes</h2>
       <CustomerForm />
+      <h2>UseEffect em ação</h2>
+      <CustomerApi />
     </div>
   );
 }
